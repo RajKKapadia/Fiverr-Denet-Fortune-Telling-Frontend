@@ -3,7 +3,7 @@ require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
 
-const CREDENTIALS = JSON.parse(process.env.MY_CREDENTIALS);
+const CREDENTIALS = JSON.parse(process.env.CREDENTIALS);
 
 const PROJECID = CREDENTIALS.project_id;
 
